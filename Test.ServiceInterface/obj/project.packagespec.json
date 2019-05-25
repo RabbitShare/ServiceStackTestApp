@@ -1,0 +1,55 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/user/Документы/test2/Test.ServiceInterface/Test.ServiceInterface.csproj",
+    "projectName": "Test.ServiceInterface",
+    "projectPath": "/home/user/Документы/test2/Test.ServiceInterface/Test.ServiceInterface.csproj",
+    "outputPath": "/home/user/Документы/test2/Test.ServiceInterface/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {},
+      "https://www.myget.org/F/servicestack": {}
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "/home/user/Документы/test2/Test.ServiceModel/Test.ServiceModel.csproj": {
+            "projectPath": "/home/user/Документы/test2/Test.ServiceModel/Test.ServiceModel.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "ServiceStack": {
+          "target": "Package",
+          "version": "[5.5.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

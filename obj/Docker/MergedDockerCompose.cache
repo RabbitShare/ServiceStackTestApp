@@ -1,0 +1,27 @@
+services:
+  mongo:
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+  redis:
+    image: redis
+    ports:
+    - published: 6379
+      target: 6379
+  test:
+    build:
+      context: C:\Users\╩ё■°└\Desktop\asd\test
+      dockerfile: Test/Dockerfile
+    depends_on:
+    - mongo
+    - redis
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: test
+    links:
+    - mongo
+    ports:
+    - published: 5000
+      target: 11225
+version: '3.4'

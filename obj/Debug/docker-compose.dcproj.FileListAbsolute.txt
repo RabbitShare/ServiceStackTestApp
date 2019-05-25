@@ -1,0 +1,9 @@
+C:\Users\КсюшА\Desktop\asd\test\bin\Debug\Test.dll
+C:\Users\КсюшА\Desktop\asd\test\bin\Debug\Test.ServiceInterface.dll
+C:\Users\КсюшА\Desktop\asd\test\bin\Debug\Test.ServiceModel.dll
+C:\Users\КсюшА\Desktop\asd\test\bin\Debug\Test.pdb
+C:\Users\КсюшА\Desktop\asd\test\bin\Debug\Test.ServiceInterface.pdb
+C:\Users\КсюшА\Desktop\asd\test\bin\Debug\Test.ServiceModel.pdb
+C:\Users\КсюшА\Desktop\asd\test\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\КсюшА\Desktop\asd\test\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\КсюшА\Desktop\asd\test\obj\Debug\docker-compose.dcproj.CopyComplete
